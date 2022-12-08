@@ -14,6 +14,8 @@
 
 <script>
 export default {
+
+ import {ref} from 'vue';
   setup(){
   const courseGoal = ref("Learn Vue.js");
   const toggleGoal = ref('show');
