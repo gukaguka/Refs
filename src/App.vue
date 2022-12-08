@@ -13,9 +13,10 @@
 </template>
 
 <script>
-export default {
 
  import {ref} from 'vue';
+export default {
+
   setup(){
   const courseGoal = ref("Learn Vue.js");
   const toggleGoal = ref('show');
